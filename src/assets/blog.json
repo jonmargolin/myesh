@@ -1,0 +1,99 @@
+[
+    
+        {
+            "blog":{
+             "date": "20/08/2023",
+             "author":"Team esh",
+             "title":"The Equal Bank Board of Directors",
+             "summary":"We are happy to announce the appointment of Dr. Kira Radinsky as a member of the bank's board of directors and as head of eshX - the new laboratory for next-generation",
+             "blogName":"kira-joining-en.md"
+            },
+            "lang": "en",
+            "blogId":1,
+            "uuid":"123"
+        },
+        {
+        "blog" :{
+            "date": "20/08/2023",
+            "author":"esh צוות",
+            "title":"הדירקטוריון השוויוני-מגדרי",
+            "summary":"אנחנו שמחים לעדכן על השלמת הרכב חברי הדירקטוריון של בנק esh ישראל (בהקמה). בדירקטוריון שלוש נשים ושלושה גברים.",
+            "blogName":"kira-joining-he.md"        
+    },
+    "lang": "he",
+    "blogId":1,
+    "uuid":"344"
+},
+{
+    "blog":{
+     "date": "20/08/2023",
+     "author":"Team esh",
+     "title":"The Equal Bank Board of Directors",
+     "summary":"We are happy to announce the appointment of Dr. Kira Radinsky as a member of the bank's board of directors and as head of eshX - the new laboratory for next-generation",
+     "blogName":"kira-joining-en.md"
+    },
+    "lang": "en",
+    "blogId":2,
+    "uuid":"123"
+},
+{
+"blog" :{
+    "date": "20/08/2023",
+    "author":"esh צוות",
+    "title":"הדירקטוריון השוויוני-מגדרי",
+    "summary":"אנחנו שמחים לעדכן על השלמת הרכב חברי הדירקטוריון של בנק esh ישראל (בהקמה). בדירקטוריון שלוש נשים ושלושה גברים.",
+    "blogName":"kira-joining-he.md"        
+},
+"lang": "he",
+"blogId":2,
+"uuid":"344"
+},
+{
+    "blog":{
+     "date": "20/08/2023",
+     "author":"Team esh",
+     "title":"The Equal Bank Board of Directors",
+     "summary":"We are happy to announce the appointment of Dr. Kira Radinsky as a member of the bank's board of directors and as head of eshX - the new laboratory for next-generation",
+     "blogName":"kira-joining-en.md"
+    },
+    "lang": "en",
+    "blogId":3,
+    "uuid":"123"
+},
+{
+"blog" :{
+    "date": "20/08/2023",
+    "author":"esh צוות",
+    "title":"הדירקטוריון השוויוני-מגדרי",
+    "summary":"אנחנו שמחים לעדכן על השלמת הרכב חברי הדירקטוריון של בנק esh ישראל (בהקמה). בדירקטוריון שלוש נשים ושלושה גברים.",
+    "blogName":"kira-joining-he.md"        
+},
+"lang": "he",
+"blogId":3,
+"uuid":"344"
+},
+{
+    "blog":{
+     "date": "20/08/2023",
+     "author":"Team esh",
+     "title":"The Equal Bank Board of Directors",
+     "summary":"We are happy to announce the appointment of Dr. Kira Radinsky as a member of the bank's board of directors and as head of eshX - the new laboratory for next-generation",
+     "blogName":"kira-joining-en.md"
+    },
+    "lang": "en",
+    "blogId":4,
+    "uuid":"123"
+},
+{
+"blog" :{
+    "date": "20/08/2023",
+    "author":"esh צוות",
+    "title":"הדירקטוריון השוויוני-מגדרי",
+    "summary":"אנחנו שמחים לעדכן על השלמת הרכב חברי הדירקטוריון של בנק esh ישראל (בהקמה). בדירקטוריון שלוש נשים ושלושה גברים.",
+    "blogName":"kira-joining-he.md"        
+},
+"lang": "he",
+"blogId":4,
+"uuid":"344"
+}
+]
