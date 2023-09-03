@@ -1,6 +1,4 @@
-
-Kira is joining esh; announcing eshX
-====================================
+# Kira is joining esh; announcing eshX
 
 17/04/2023  ·  Team esh
 

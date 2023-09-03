@@ -1,11 +1,11 @@
-import { BasicImageProps } from "./header/types";
+import { BasicImageProps } from './header/types';
 
-const Logo = ({
-  Icon
-}: BasicImageProps) => {
-  return <div>
+const Logo = ({ Icon, onclick }: BasicImageProps) => {
+    return (
+        <div onClick={onclick}>
             <Icon />
-        </div>;
+        </div>
+    );
 };
 
 export default Logo;

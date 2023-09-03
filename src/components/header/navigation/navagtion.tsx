@@ -1,33 +1,36 @@
-
-import {LinkPropsList } from '../types';
-import {ReactComponent as eshLogo} from './../../../assets/esh.svg'
+import { LinkPropsList } from '../types';
+import { ReactComponent as eshLogo } from './../../../assets/esh.svg';
 import Logo from '../../logo';
 import Link from './link';
 import { useTranslation } from 'react-i18next';
 import { computed } from '@preact/signals-react';
 import { settingSignal } from '../../../globals/signal/signal-store';
-import { useLocation } from 'react-router-dom';
-
+import { useLocation, useNavigate } from 'react-router-dom';
 
 // navigation for desktop browsers layout change  according to the language direction in setting signal.
 const Navigation = () => {
-    const { t  } = useTranslation(); 
-    const location = useLocation()
+    const { t } = useTranslation();
+    const location = useLocation();
+    const navigate = useNavigate();
+    const siteLinks: LinkPropsList[] = [
+        { href: '/Home', name: t('home') },
+        { href: '/blog', name: t('blog') },
+    ];
 
-    const  siteLinks: LinkPropsList[]=[{href: "/Home", name:t("home")},{href: "/blog", name: t("blog")}]
-   
-    const  currentDirection = computed(() => settingSignal.value.direction);
+    const currentDirection = computed(() => settingSignal.value.direction);
     return (
-        <div className={`flex ${currentDirection.value=== "ltr"? "grow": ""} ${currentDirection.value=== "ltr"? "": "flex-row-reverse"}  items-baseline`}>
-            <Logo Icon={eshLogo} />
+        <div
+            className={`flex ${currentDirection.value === 'ltr' ? 'grow' : ''} ${
+                currentDirection.value === 'ltr' ? '' : 'flex-row-reverse'
+            }  items-baseline`}
+        >
+            <Logo Icon={eshLogo} onclick={() => navigate('/home')} />
             <div className={`flex`}>
-            {siteLinks.map((item, index) => {
-                
-                return <Link key={index+item.name} name = {item.name} href={item.href}  isSelected={location.pathname === item.href}/>
-            })}
+                {siteLinks.map((item, index) => {
+                    return <Link key={index + item.name} name={item.name} href={item.href} isSelected={location.pathname === item.href} />;
+                })}
             </div>
-           
-        </div> 
+        </div>
     );
 };
 

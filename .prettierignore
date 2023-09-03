@@ -1,0 +1,8 @@
+dist
+public
+.history
+.ladle
+index.html
+*.json
+.vite
+.yalc

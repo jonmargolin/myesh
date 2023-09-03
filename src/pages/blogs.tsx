@@ -8,7 +8,7 @@ import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-re
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import { computed } from '@preact/signals-react';
 
-//Blogs page get all blogs store the selected when in the blog signal.  
+//Blogs page get all blogs store the selected when in the blog signal.
 
 const Blogs = () => {
     const { blogList, isLoading, isError } = useBlogList();

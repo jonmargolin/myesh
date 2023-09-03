@@ -6,14 +6,14 @@ import BlogTitle from './blog-title';
 import { BlogsProps } from './types';
 import { settingSignal } from '../../globals/signal/signal-store';
 
-const Blog = ({ index, content,blogId ,selectBlog }: BlogsProps) => {
-    const {author, date, title, summary} = content
-    const  currentDirection = computed(() => settingSignal.value.direction);
+const Blog = ({ index, content, blogId, selectBlog }: BlogsProps) => {
+    const { author, date, title, summary } = content;
+    const currentDirection = computed(() => settingSignal.value.direction);
     const checkBlogOrder = () => {
         if (index % 2 === 0) {
             return (
                 <>
-                    <BlogAuthor author={author} date={date}  />
+                    <BlogAuthor author={author} date={date} />
                     <BlogTitle title={title} />
                     <BlogContent summary={summary} />
                     <BlogImage />
@@ -29,7 +29,11 @@ const Blog = ({ index, content,blogId ,selectBlog }: BlogsProps) => {
             </>
         );
     };
-    return <div onClick={() => selectBlog(blogId)} className="flex hover:cursor-pointer flex-col  mx-8" dir={currentDirection.value}>{checkBlogOrder()}</div>;
+    return (
+        <div onClick={() => selectBlog(blogId)} className="flex hover:cursor-pointer flex-col  mx-8" dir={currentDirection.value}>
+            {checkBlogOrder()}
+        </div>
+    );
 };
 
 export default Blog;
