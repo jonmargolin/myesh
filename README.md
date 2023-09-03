@@ -2,9 +2,9 @@
 
 ### Installation
 
--   the project use pnpm for dependencies management but you can also use npm or yarn.
--   run pnpm install for installing dependencies
--   run pnpm run dev for start the dev server.
+-   the project use yarn for dependencies management but you can also use pnpm or yarn.
+-   run yarn install for installing dependencies
+-   run yarn run dev for start the dev server.
 
 ### Assets management
 
